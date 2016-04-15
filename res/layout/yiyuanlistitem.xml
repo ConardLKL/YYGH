@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dip"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip" >
+
+    <ImageView
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="0.1dip"
+        android:background="@drawable/img_line" />
+
+    <ImageView
+        android:id="@+id/yiyuan_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line"
+        android:layout_marginBottom="3.5dip"
+        android:layout_marginLeft="5dip"
+        android:layout_centerVertical="true"
+        />
+
+    <ImageView
+        android:id="@+id/left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="5dip"
+        android:background="@drawable/channel_left_disable" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="11dip"
+        android:layout_below="@+id/line"
+        android:layout_toLeftOf="@+id/left"
+        android:layout_toRightOf="@+id/yiyuan_img"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/hospitalname1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13.5dip"
+            android:textColor="@color/black"
+            android:textSize="15dip" />
+
+        <TextView
+            android:id="@+id/hospitaladdr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:textColor="@color/graytxt"
+            android:textSize="11dip" />
+
+        <TextView
+            android:id="@+id/hospitaldengji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:textColor="@color/graytxt"
+            android:textSize="11dip" />
+    </LinearLayout>
+
+</RelativeLayout>

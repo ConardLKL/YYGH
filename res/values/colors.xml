@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+      <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="red">#e3170d</color>
+    <color name="blue">#0099ff</color>
+    
+    <color name="wodebg">#f6f6f6</color>
+    <color name="orange1">#fc7700</color>
+    <color name="gray">#797979</color>
+     <color name="graybg">#f6f6f6</color>
+     <color name="line">#ababab</color>
+     <color name="graytxt">#676767</color>
+     <!-- 红色字 -->
+     <color name="redtxt">#b90b0a</color>
+     <!-- 绿色字 -->
+     <color name="greentxt">#0a8e51</color>
+      <!-- 橘色字 -->
+     <color name="orangetxt">#fa8100</color>
+      <!-- 浅棕字 -->
+     <color name="browntxt">#b88c17</color>
+       <!-- 蓝色字 -->
+     <color name="bluetxt">#1083cf</color>
+     
+     <!-- 深棕字 -->
+     <color name="brotxt">#897401</color>
+</resources>

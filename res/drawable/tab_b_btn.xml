@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+   <item android:state_checked="true" android:drawable="@drawable/bt_wode_an"></item>
+  <item android:drawable="@drawable/bt_wode_an" android:state_focused="true"></item>
+    <item android:drawable="@drawable/bt_wode_an" android:state_selected="true"></item>
+    <item android:drawable="@drawable/bt_wode_an" android:state_pressed="true"></item>
+    <item android:drawable="@drawable/bt_wode"></item>
+
+</selector>

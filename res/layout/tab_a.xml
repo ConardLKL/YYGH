@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/graybg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="41dip"
+        android:layout_marginRight="41dip"
+        android:layout_marginTop="12.5dip"
+        android:padding="2dip"
+        android:background="@drawable/search" >
+
+        <Button
+            android:id="@+id/search_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="11dip"
+            android:background="@drawable/img_fangdajing" />
+
+        <EditText
+            android:id="@+id/search_edit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="13dip"
+            android:background="@null" />
+    </LinearLayout>
+<!--  
+    <GridView
+        android:id="@+id/yuyue_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="13.5dip"
+        android:horizontalSpacing="5dip"
+        android:numColumns="auto_fit"
+        android:scrollbars="none"
+        android:verticalSpacing="10dip" >
+    </GridView>
+   --> 
+
+<ListView
+    android:id="@+id/yuqulist"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="13.5dip"
+    android:background="@color/white"
+    android:footerDividersEnabled="false"
+    android:divider="@null"
+    android:scrollbars="none" >
+</ListView>
+</LinearLayout>

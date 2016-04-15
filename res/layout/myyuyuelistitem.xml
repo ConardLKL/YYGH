@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dip"
+    android:background="@color/white" >
+    
+    <TextView  android:id="@+id/hospital"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="16.5dip"
+        android:layout_marginLeft="10dip"
+        android:textSize="17dip"/>
+    <TextView android:id="@+id/keshi"
+          android:layout_marginTop="12dip"
+        android:layout_marginLeft="10dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray"
+        android:layout_below="@+id/hospital"
+        />
+  <TextView android:id="@+id/yisheng"
+        android:layout_marginTop="12dip"
+        android:layout_marginLeft="10dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hospital"
+        android:textColor="@color/gray"
+        android:layout_toRightOf="@+id/keshi"
+        />
+  
+   <TextView android:id="@+id/data"
+      android:layout_marginBottom="10dip"
+        android:layout_marginTop="12dip"
+        android:layout_marginLeft="10dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/yisheng"
+        android:textColor="@color/gray"
+        android:text="就诊时间:"
+        />
+   
+    <TextView android:id="@+id/datatxt"
+      android:layout_marginBottom="10dip"
+        android:layout_marginTop="12dip"
+        android:layout_marginLeft="10dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/yisheng"
+        android:textColor="@color/gray"
+        android:layout_toRightOf="@+id/data"
+        />
+    <TextView android:id="@+id/money"
+          android:layout_marginTop="12dip"
+          android:layout_marginBottom="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/yisheng"
+        android:textColor="@color/gray"
+        android:layout_alignParentRight="true"
+        />
+     <TextView 
+          android:layout_marginTop="12dip"
+          android:layout_marginBottom="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/yisheng"
+        android:textColor="@color/gray"
+        android:text="费用:"
+        android:layout_toLeftOf="@+id/money"
+        />
+    
+     
+     
+</RelativeLayout>

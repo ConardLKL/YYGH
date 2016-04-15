@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/graybg"
+   >
+  <RelativeLayout 
+      android:id="@+id/title"
+    android:layout_width="match_parent"
+    android:layout_height="48dip"
+    android:background="@drawable/bg_yuyue"
+    android:orientation="vertical" >
+    <Button android:id="@+id/title_btn_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textColor="@color/white"
+        android:background="@drawable/back_btn_selector"
+        android:layout_marginLeft="10dip"/>
+ <TextView android:id="@+id/title_id"
+     android:layout_gravity="center_vertical|center_horizontal"
+     android:textColor="@color/white"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_centerInParent="true"
+     android:text="我的预约"
+     android:textSize="20dip"
+     />
+ 
+  <Button android:id="@+id/title_btn_right"
+        android:layout_width="45dip"
+        android:layout_height="12dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:textColor="@color/white"
+        android:background="@drawable/quxiaoyuyue"
+        android:layout_marginRight="10dip"/>
+</RelativeLayout>
+<LinearLayout android:layout_below="@+id/title"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="38dip"
+    android:layout_marginRight="38dip"
+    android:layout_marginTop="25dip"
+    android:layout_marginBottom="25dip"
+    android:layout_centerInParent="true"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dip"
+        android:layout_marginLeft="19dip">
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="医       院:"
+            android:textSize="15dip"
+            android:textColor="@color/black"/>
+         <TextView 
+             android:id="@+id/hospital_name"
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:textSize="15dip"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+    <ImageView android:layout_width="match_parent"
+        android:layout_height="0.1dip"
+        android:background="@color/line"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        />
+     <LinearLayout android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dip"
+        android:layout_marginLeft="19dip">
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="科       室:"
+            android:textSize="15dip"
+            android:textColor="@color/black"/>
+         <TextView 
+             android:id="@+id/keshi"
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:textSize="15dip"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+    <ImageView android:layout_width="match_parent"
+        android:layout_height="0.1dip"
+        android:background="@color/line"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        />
+    
+     <LinearLayout android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dip"
+        android:layout_marginLeft="19dip">
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="医       生:"
+            android:textSize="15dip"
+            android:textColor="@color/black"/>
+         <TextView 
+             android:id="@+id/yisheng_name"
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:textSize="15dip"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+    <ImageView android:layout_width="match_parent"
+        android:layout_height="0.1dip"
+        android:background="@color/line"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        />
+    
+     <LinearLayout android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dip"
+        android:layout_marginLeft="19dip">
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="预约日期:"
+            android:textSize="15dip"
+            android:textColor="@color/black"/>
+         <TextView 
+             android:id="@+id/time"
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:textSize="15dip"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+    <ImageView android:layout_width="match_parent"
+        android:layout_height="0.1dip"
+        android:background="@color/line"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        />
+    
+     <LinearLayout android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dip"
+        android:layout_marginLeft="19dip">
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="就  诊  人:"
+            android:textSize="15dip"
+            android:textColor="@color/black"/>
+         <TextView 
+             android:id="@+id/user_name"
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:textSize="15dip"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+    <ImageView android:layout_width="match_parent"
+        android:layout_height="0.1dip"
+        android:background="@color/line"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        />
+    
+     <LinearLayout android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dip"
+        android:layout_marginLeft="19dip">
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="手       机:"
+            android:textSize="15dip"
+            android:textColor="@color/black"/>
+         <TextView 
+             android:id="@+id/phone"
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dip"
+            android:layout_marginLeft="5dip"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+    <ImageView android:layout_width="match_parent"
+        android:layout_height="0.1dip"
+        android:background="@color/line"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        />
+    
+     <LinearLayout android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dip"
+        android:layout_marginLeft="19dip">
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="支付状态:"
+            android:textSize="15dip"
+            android:textColor="@color/black"/>
+         <TextView 
+             android:id="@+id/pay"
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:textSize="15dip"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+    <ImageView android:layout_width="match_parent"
+        android:layout_height="0.1dip"
+        android:background="@color/line"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        />
+     <LinearLayout android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dip"
+        android:layout_marginLeft="19dip">
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="费       用:"
+            android:textSize="15dip"
+            android:textColor="@color/black"/>
+         <TextView 
+             android:id="@+id/money"
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:textSize="15dip"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+    <ImageView android:layout_width="match_parent"
+        android:layout_height="0.1dip"
+        android:background="@color/line"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        />
+</LinearLayout>
+</RelativeLayout>

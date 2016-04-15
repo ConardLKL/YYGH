@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/wodebg" >
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="165dip"
+        android:background="@drawable/bg_denglu">
+        <ImageView android:id="@+id/wode_userimg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="22.5dip"
+            android:background="@drawable/img_weidenglu"/>
+        
+        <TextView android:id="@+id/wode_usertxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dip"
+            android:layout_below="@+id/wode_userimg"
+            android:layout_centerHorizontal="true"
+            android:textSize="16dip"
+            android:text="登录/注册"/>
+        
+    </RelativeLayout>
+
+    
+    <RelativeLayout android:id="@+id/wode_yuyue"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="45dp">
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="23dip"
+            android:text="@string/wode_yuyue"/>
+        <ImageView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+               android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="23dip"
+            android:background="@drawable/channel_left_disable"/>
+   </RelativeLayout>
+   <ImageView android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@drawable/img_line"/>
+        <RelativeLayout android:id="@+id/wode_jianchagengxin"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="45dp">
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="23dip"
+            android:text="@string/wode_jianchagengxin"/>
+        <ImageView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+               android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="23dip"
+            android:background="@drawable/channel_left_disable"/>
+   </RelativeLayout>
+    <ImageView android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@drawable/img_line"/>
+        <RelativeLayout android:id="@+id/wode_zhanghuxiugai"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="45dp">
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="23dip"
+            android:text="@string/wode_zhanghuxiugai"/>
+        <ImageView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+               android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="23dip"
+            android:background="@drawable/channel_left_disable"/>
+   </RelativeLayout>
+    <ImageView android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@drawable/img_line"/>
+        <RelativeLayout android:id="@+id/wode_yijianfankui"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="45dp">
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="23dip"
+            android:text="@string/wode_yijianfankui"/>
+        <ImageView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+               android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="23dip"
+            android:background="@drawable/channel_left_disable"/>
+   </RelativeLayout>
+</LinearLayout>

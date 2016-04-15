@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">预约挂号</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+<string name="tab_a">预约挂号</string>
+<string name="tab_b">我的</string>
+<string name="wode_yuyue">我的预约</string>
+<string name="wode_jianchagengxin">检查更新</string>
+<string name="wode_zhanghuxiugai">绑定银行卡</string>
+<string name="wode_yijianfankui">意见反馈</string>
+<string name="yuyue_keshi">科室</string>
+<string name="yuyue_zhuanjia">专家</string>
+</resources>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    <include layout="@layout/title_layout"/>
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    
+    android:orientation="horizontal">
+    
+    
+    <ImageView android:id="@+id/yuyue_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/doc1"
+        android:layout_marginTop="25dip"
+        android:layout_marginLeft="21dip"/>
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+          android:layout_marginLeft="21dip"
+          android:textColor="@color/orange1"
+          android:layout_marginTop="15dip"
+          android:layout_gravity="center_vertical"
+        android:text="预约医生:"/>
+    
+      <TextView 
+          android:id="@+id/yisheng_name"
+        android:textColor="@color/orange1"
+          android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+         android:layout_gravity="center_vertical"
+        android:text="周栩臣"/>
+</LinearLayout>
+<ImageView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="21dip"
+    android:background="@drawable/img_line"/>
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="26dip"
+    
+    android:orientation="horizontal">
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+          android:layout_marginLeft="21dip"
+          android:textSize="15dip"
+           android:textColor="@color/black"
+        android:text="主任医师"/>
+    
+      <TextView 
+          android:id="@+id/hospital_name"
+        android:layout_marginLeft="19dip"
+          android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:textColor="@color/black"
+         android:textSize="15dip"
+        android:text="第一医院"/>
+</LinearLayout>
+<LinearLayout 
+    android:layout_marginTop="11dip"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+          android:layout_marginLeft="21dip"
+           android:textColor="@color/black"
+           android:textSize="15dip"
+        android:text="预约科室:"/>
+    
+      <TextView 
+          android:id="@+id/hospital_keshi"
+        android:layout_marginLeft="19dip"
+          android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:textColor="@color/black"
+         android:textSize="15dip"
+        android:text="心内科"/>
+</LinearLayout>
+
+<LinearLayout 
+    android:layout_marginTop="11dip"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+          android:layout_marginLeft="21dip"
+           android:textColor="@color/black"
+           android:textSize="15dip"
+        android:text="就诊时间:"/>
+    
+      <TextView 
+          android:id="@+id/hospital_time"
+        android:layout_marginLeft="19dip"
+          android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:textColor="@color/black"
+         android:textSize="15dip"
+        android:text="周二上午"/>
+</LinearLayout>
+<LinearLayout 
+    android:layout_marginTop="11dip"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+          android:layout_marginLeft="21dip"
+           android:textColor="@color/black"
+           android:textSize="15dip"
+        android:text="诊  查  费:"/>
+    
+      <TextView 
+          android:id="@+id/hospital_money"
+        android:layout_marginLeft="19dip"
+          android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:textColor="@color/black"
+         android:textSize="15dip"
+        android:text="14"/>
+</LinearLayout>
+
+<LinearLayout 
+    android:layout_marginTop="11dip"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+          android:layout_marginLeft="21dip"
+          android:textColor="@color/orange1"
+          android:textSize="15dip"
+        android:text="就  诊  人:"/>
+    
+      <TextView 
+          android:id="@+id/user"
+        android:layout_marginLeft="19dip"
+          android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/orange1"
+        android:textSize="15dip"
+        android:text="周晨阳"/>
+</LinearLayout>
+
+<LinearLayout 
+    android:layout_marginTop="11dip"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+          android:layout_marginLeft="21dip"
+           android:textColor="@color/black"
+           android:textSize="15dip"
+        android:text="身  份  证:"/>
+    
+      <TextView 
+          android:id="@+id/cardid"
+        android:layout_marginLeft="19dip"
+          android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:textColor="@color/black"
+         android:textSize="15dip"
+        android:text="1235445498984165"/>
+</LinearLayout>
+
+<LinearLayout 
+    android:layout_marginTop="11dip"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+          android:layout_marginLeft="21dip"
+           android:textColor="@color/black"
+           android:textSize="15dip"
+        android:text="联系电话:"/>
+    
+      <TextView 
+          android:id="@+id/phone"
+        android:layout_marginLeft="19dip"
+          android:layout_width="wrap_content"
+           android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:textSize="15dip"
+        android:text="1358420145"/>
+      
+      
+      
+</LinearLayout>
+
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="18dip"
+    android:orientation="horizontal">
+    
+    <Button 
+        android:id="@+id/tijiao_queren"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="19dip"
+        android:text="提交订单"
+        android:textSize="17dip"
+        android:layout_weight="1"
+        android:textColor="@color/orange1"
+        android:background="@drawable/bt_tijiao"/>
+    
+    <Button 
+        android:id="@+id/tijiao_quxiao"
+        android:layout_margin="19dip"
+        android:textSize="17dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="取消订单"
+        android:textColor="@color/gray"
+        android:background="@drawable/btn_quxiao"/>
+</LinearLayout>
+</LinearLayout>
